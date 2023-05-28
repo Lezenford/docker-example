@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    show-sql: false
+  datasource:
+    url: jdbc:postgresql://postgres:5432/test?prepareThreshold=0
+    driver-class-name: org.postgresql.Driver
+    username: user
+    password: 123456
+
+  flyway:
+    locations: classpath:db
